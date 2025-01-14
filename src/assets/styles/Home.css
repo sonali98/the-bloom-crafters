@@ -1,0 +1,135 @@
+/* Global Styles */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #e4e2dd;
+    height: 400px;
+    color: 6a8e7f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #6a8e7f;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-section a {
+    margin-top: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #e23e88;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    border: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #3a3a3a;
+  }
+  
+  /* About Us Section */
+  .about-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #6a8e7f;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Featured Products Section */
+  .featured-products {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #6a8e7f;
+  }
+  
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #6a8e7f;
+  }
+  
+  .testimonial-card {
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+  }
+  
+  .testimonial-card p:last-child {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e4e2dd;
+    color: white;
+  }
+  
+  .cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #6a8e7f;
+  }
+  
+  .cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  

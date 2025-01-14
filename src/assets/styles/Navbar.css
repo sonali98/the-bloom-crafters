@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Adlery Pro';
+  src: url('../fonts/Adlery-Pro-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Navbar container */
+/* Navbar stays at the top */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 30px 0 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  
+  /* Navbar inner container */
+  .navbar-container {
+    text-align: center;
+  }
+
+  
+  /* Website name styling */
+  .navbar-brand h1 {
+    font-family: 'Adlery Pro', sans-serif;
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #6a8e7f;
+  }
+  
+  /* Navbar links styling */
+  .navbar-links {
+    margin-top: 20px; /* Adds some space between the website name and the links */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block; /* Stacks the links vertically */
+    margin-bottom: 15px; /* Adds space between each link */
+    transition: color 0.3s ease;
+    padding: 10px;
+  }
+  
+  /* Navbar link hover effect */
+  .navbar-link:hover {
+    color: #e23e88; /* Golden color */
+  }
+  
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .navbar-container {
+      padding: 10px;
+    }
+  
+    .navbar-brand h1 {
+      font-size: 28px; /* Adjust font size for mobile */
+    }
+  
+    .navbar-link {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+  
