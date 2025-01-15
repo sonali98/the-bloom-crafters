@@ -4,7 +4,7 @@ import ProductCard from "../components/ProductCard";
 const Products = () => {
   const products = [
     {
-      image: "/path/to/image1.jpg",
+      image: "../assets/images/image_1.jpg",
       title: "Flower Jewelry Set",
       description: "Beautiful real flower jewelry for weddings.",
       price: 2000,
